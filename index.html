@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <!--<alt>+<l>+<o> abre uma pagina html de um servidor local mostrando a sua página-->
+    <header class="cabecalho">
+        <img src="./src/images/imagens/logo.svg" alt="Logo -X-Men">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name = "Ciclope" data-description="Ele tem o poder de disparar rajadas opticas por um acidente que aconteceu com ele enquanto ainda era criança, mas não consegue controla-los">
+                    <img src="src/images/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name = "Jean Grey" data-description="Jean Grey é uma mutente, tipo omega, o principal avatar da força fenix, na qual manifesta poderes cósmicos, a telapatia e a telecinese">
+                    <img src="src/images/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name = "Lince Negra" data-description = "Ela tem o poder de atrevessar matéria sólida, campos de energia, rajadas opticas, continuando intacta, e também tem o poder de andar no ar">
+                    <img src="src/images/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name = "Tempestade" data-description = "Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos neblina entre outros efeitos">
+                    <img src="src/images/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name = "Vampira" data-description = "Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso os mutantes os poderes e a memória mas só temporariamente">
+                    <img src="src/images/imagens/card-vampira.jpg" alt="Personagem Vampira" >
+                </li>
+                <li class="personagem" id="wolverine" data-name = "Wolverine" data-description = "Poderes garras metalicas, poder regenerativo, super agiliddade">
+                    <img src="src/images/imagens/card-wolverine.jpg" alt="Personagem wolverine"> 
+                </li>
+                <li class="personagem" id="noturno" data-name = "Noturno" data-description = "Ele é um mutente que nasceu com caldas, orelhas pontudas e com o poder de se teletransportar">
+                    <img src="src/images/imagens/card-noturno.jpg" alt="Personagem Noturno" >
+                </li>
+                <li class="personagem" id="magneto" data-name = "Magneto" data-description = "Ele tem o poder de magnetocinese, ou seja, conrolar os objetos de metal e criar campos magnéticos">
+                    <img src="src/images/imagens/card-magneto.jpg" alt="Personagem Magneto" data-name = "Magneto">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img  class= "personagem-grande" src="src\images\imagens\card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem"><h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas opticas por um acidente que aconteceu com ele quando criança, mas não consegue controla-lo</p>
+            </div>
+        </section>
+    </main>   
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
